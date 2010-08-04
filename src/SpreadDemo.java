@@ -36,6 +36,7 @@ public class SpreadDemo extends HttpServlet {
 		String query = req.getQueryString();
 		if(null == query)
 		{
+			// push test
 			login(req, resp);
 /*			
 			String nextUrl = req.getRequestURL().toString();
